@@ -55,7 +55,7 @@
     "adVMSize": "Standard_A1",
     "sqlVMSize": "Standard_A2",
     "spVMSize": "Standard_A3",
-    "spassetLocation": "https://raw.githubusercontent.com/DennisSchouwenaars/NON-HA-SPT2013/master",
+    "spassetLocation": "https://raw.githubusercontent.com/AnthonyKersten/Magistra-SP2016-new/master",
     "adAssetLocation": "https://raw.githubusercontent.com/DennisSchouwenaars/NON-HA-ADC/master",
     "sqlAssetLocation": "https://raw.githubusercontent.com/DennisSchouwenaars/NON-HA-SQL/master",
     "location": "[resourceGroup().location]",
