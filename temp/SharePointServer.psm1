@@ -145,6 +145,7 @@ function CreateNewOrJoinExistingFarm
                 AdministrationContentDatabaseName = $AdministrationContentDatabaseName
                 FarmCredentials = $FarmCredentials
                 Passphrase = $Passphrase.GetNetworkCredential().SecurePassword
+		LocalServerRole = "Custom"
             }
             New-SPConfigurationDatabase @params
 
