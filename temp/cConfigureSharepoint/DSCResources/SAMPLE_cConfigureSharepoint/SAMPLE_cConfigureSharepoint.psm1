@@ -231,6 +231,7 @@ function Configure-Sharepoint
                                 -AdministrationContentDatabaseName $AdministrationContentDatabaseName `
                                 -FarmCredentials $FarmAccountCredential `
                                 -Passphrase $FarmPassphrase
+                        
 
     ScanFarmServers -DatabaseName $DatabaseName `
                     -DatabaseServer $DatabaseServer
