@@ -16,7 +16,7 @@
       },
       "defaultValue": "WindowsServer"
     },
-    "windowsImageSKU": {
+    "windowsImageSKU2016": {
       "type": "string",
       "metadata": {
         "description": "The SKU Name of Windows Image"
@@ -175,7 +175,7 @@
                     "imageReference": {
                         "publisher": "[parameters('windowsImagePublisher')]",
                         "offer": "[parameters('windowsImageOffer')]",
-                        "sku": "[parameters('windowsImageSKU')]",
+                        "sku": "[parameters('windowsImageSKU2016')]",
                         "version": "[parameters('windowsImageVersion')]"
                     },
                     "osDisk": {
